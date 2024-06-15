@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddharth Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<div class="container">
+
+  <body>
+    <header>
+      <nav>
+        <div class="left"><span class="purple">Siddharth's</span> Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#Home">Home Page</li></a>
+            <li><a href="#About">About</li></a>
+            <li><a href="#Projects">Projects</li></a>
+            <li><a href="#Experience">Experience</li></a>
+            <li><a href="#Contact me">Contact Me</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <main>
+        <div id="Home">
+        <section class="Firstsection">
+          <div class="leftSection">
+            <p>Hi, I am <span class="purple">Siddharth Dhadwal</span>
+              and I am a Computer Science student at SRM University.</p>
+            <br>
+            <div>The languages that I know are</div>
+            <span id="element"></span>
+            <div class="buttons">
+              <a href="SIDDHARTH DHADWAL resume.pdf" download><button class="btn">
+                  Download Resume
+                </button></a>
+            </div>
+          </div>
+          <div class="rightSection">
+            <img src="imggg.jpg" alt="">
+          </div>
+        </div>
+        </section>
+        <hr>
+        <div id="About">
+        <section class="secondSection">
+          <span class="purple">
+            <h1>About</h1>
+          </span>
+          <br>
+          <div>I am a passionate computer science student dedicated to exploring the ever-evolving landscape of
+            technology and innovation. With a solid foundation in programming, algorithms, and software development, I
+            thrive on solving complex problems and building efficient, scalable solutions. My academic journey is
+            complemented by hands-on experience in projects involving web development, artificial intelligence, and data
+            analysis. Driven by curiosity and a love for learning, I am eager to contribute to cutting-edge advancements
+            in the tech industry while continuously honing my skills and expanding my knowledge.
+            <br>
+            <br>
+            <br>
+            <div class="tabTitles">
+              <p class="tabLinks activeLink" onclick="opentab('skills')">Skills</p>
+              <p class="tabLinks" onclick="opentab('experience')">Experience</p>
+              <p class="tabLinks" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tabContents activeTab" id="skills">
+              <ul>
+                <li><span>HTML</span><br>Web Development</li>
+                <li><span>Python</span><br>Machine learning</li>
+                <li><span>UI/UX</span><br>Designer</li>
+              </ul>
+            </div>
+            <div class="tabContents" id="experience">
+              <ul>
+                <li><span>March 2024-April 2024</span><br>Data Science Intern at CodersCave</li>
+                <li><span>June 2024-July 2024</span><br>Web Development Intern at BharatIntern</li>
+                <li><span>June 2024-July 2024</span><br>Web Development Intern at CodTech</li>
+              </ul>
+            </div>
+            <div class="tabContents" id="education">
+              <ul>
+                <li><span>1st-12th</span><br>St Edwards School, Shimla</li>
+                <li><span>BTech</span><br>SRM University KTR</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          </section>
+          <br>
+          <!------------------------------------------------section-->
+          <br>
+          <br>
+          <br>
+          <section class="Thirdsection">
+          <div id="Projects">
+            <div class="container">
+              <span class="purple">
+                <h1 class="subTitle">My Projects</h1>
+              </span>
+              <div class="ProjectsList">
+                <div class="card">
+                  <p class="heading">
+                    4X4 Tic Tac Toe
+                  </p>
+                  <p>
+                    1st Semester
+                  </p>
+                  <p>PPS Project
+                  </p>
+                </div>
+                <div class="card">
+                  <p class="heading">
+                    Automatic Irrigation System
+                  </p>
+                  <p>
+                    2nd Semester
+                  </p>
+                  <p>Semiconductor Project
+                  </p>
+                </div>
+                <div class="card">
+                  <p class="heading">
+                    Smart Dustbin
+                  </p>
+                  <p>
+                    3rd Semester
+                  </p>
+                  <p>COA Project
+                  </p>
+                </div>
+                <div class="card">
+                  <p class="heading">
+                    Airline Management System
+                  </p>
+                  <p>
+                    4th Semester
+                  </p>
+                  <p>DBMS Project
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div><br><br>
+
+          <div id="project-1" class="project hidden">
+            <ul>
+              <li>
+                <p><span class="siu">Tic-Tac-Toe Game Enhancement Project</span></p><br>
+                <p><span class="purple">Project Overview:</span>
+                  In collaboration with my friend, we enhanced a tic-tac-toe game by building upon an existing source
+                  code, improving user interactivity, and expanding the game grid from 3x3 to 4x4.</p>
+                <br>
+                <p><span class="purple">Original Source Code:</span>
+                  We used the original source code available <a
+                    href="http://github.com/Vivekgupta29/tictactoe/blob/main/tiktactoe.py">[here]</a></p>
+                <br>
+                <p><span class="purple">Improvements:</span>
+              <li>1. Enhanced user interactivity.</li>
+              <li>2. Expanded the game grid from 3x3 to 4x4 for a more challenging experience.</li>
+              </p>
+              <br>
+              <p><span class="purple">Enhanced Code:</span>
+                The enhanced versions of the code are available in our GitHub repository: <br>
+                <a href="http://github.com/siddharth2514/21CSS101j_RA2211042010011_mini-projects-codes/tree/main">[Enhanced
+                  3x3 Version]</a>
+                <br><a
+                  href="http://github.com/siddharth2514/21CSS101j_RA2211042010011_mini-projects-codes/tree/main">[Expanded
+                  4x4 Version]</a>
+              </p><br>
+              <p><span class="purple">Project Significance:</span>
+                These improvements reflect our commitment to creating a more engaging and challenging gameplay
+                experience.</p>
+              </li>
+            </ul>
+          </div>
+
+          <div id="project-2" class="project hidden">
+            <p><span class="siu">Automatic Irrigation System Project</span></p><br>
+            <p><span class="purple">Project Overview:</span>
+              In collaboration with a team of four, we developed an automatic irrigation system utilizing Arduino
+              technology. This project aimed to optimize water usage in agriculture by automating the irrigation
+              process.</p>
+            <br>
+            <p><span class="purple">Technology Used:</span>
+              <li>Arduino: Central to our system, used for controlling and monitoring the irrigation process.</li>
+              <li>Sensors: Soil moisture sensors to detect soil moisture levels.</li>
+              <li>Actuators: Controlled water pumps to manage irrigation based on sensor data.</li>
+            </p><br>
+            <p><span class="purple">Functionality:</span>
+              <li>The system automatically waters plants when soil moisture levels fall below a predefined threshold.
+              </li>
+              <li>It improves water efficiency and reduces manual labor in agricultural practices.</li>
+              <br>
+            </p>
+            <p><span class="purple">Project Significance:</span>
+              This project showcases our ability to apply IoT and automation technologies to solve real-world problems
+              in agriculture.</p>
+          </div>
+
+          <div id="project-3" class="project hidden">
+
+            <p><span class="siu">Smart Dustbin with Arduino, Motor, and Motion Sensor</span></p><br>
+            <p><span class="purple">Project Overview:</span>
+              In collaboration with a team of two, we developed a Smart Dustbin using Arduino technology, a motor, and a
+              motion sensor. Our objective was to create an innovative solution that automates waste disposal and
+              promotes environmental sustainability.</p>
+            <br>
+            <span class="purple">Technology Used:</span><br>
+            <li>Arduino: Microcontroller utilized for interfacing between components and controlling system behavior.
+            </li>
+            <li>Motor: Actuator responsible for opening and closing the dustbin lid in response to motion detection.
+            </li>
+            <li>Motion Sensor: Detects nearby motion, triggering the motorized lid mechanism.</li>
+            <br>
+            <span class="purple">Functionality:</span>
+            <li>The motion sensor detects approaching individuals, activating the motorized lid to open automatically.
+            </li>
+            <li>Users can conveniently dispose of waste without physical contact, promoting hygiene and convenience.
+            </li>
+            <li>After a predefined period of inactivity, the lid closes automatically, maintaining cleanliness and
+              preventing odors.</li><br>
+            <span class="purple">Project Significance:</span>
+            Our collaborative effort in developing the Smart Dustbin showcases the application of Arduino-based
+            automation to improve everyday waste management practices. By leveraging sensor technology and motorized
+            mechanisms, we have created a solution that enhances user experience, promotes hygiene, and contributes to
+            environmental sustainability.
+          </div>
+
+          <div id="project-4" class="project hidden">
+            <!-- Repeat similar content structure for the DBMS project -->
+            <p><span class="siu">Airline Management System with SQL Database Integration</span></p><br>
+            <p><span class="purple">Project Overview:</span>
+              In collaboration with a team of two, we developed an Airline Management System that integrates SQL
+              databases for efficient data storage and retrieval. Our project aimed to streamline airline operations by
+              providing a comprehensive platform for managing flights, reservations, and passenger information.</p>
+            <br>
+            <span class="purple">Technology Used:</span>
+            <li>SQL Database: Utilized for storing and managing airline-related data, including flight schedules,
+              passenger details, and reservation information.</li>
+            <li>Front-end Development: Implemented user interface components to interact with the SQL databases,
+              enabling users to make changes and updates to the system.</li>
+            <br>
+            <span class="purple">Functionality:</span>
+            <li>Flight Management: The system allows airline staff to add, update, or cancel flights, including details
+              such as departure/arrival times, destinations, and aircraft information.</li>
+            <li>Reservation System: Users can search for available flights, make reservations, and manage their booking
+              details through the user-friendly interface.</li>
+            <li>Passenger Information: The system maintains records of passenger details, including contact information,
+              seat assignments, and special requests.</li>
+            <br>
+            <p>Here is the link to our <a href="gui.py">GUI</a></p><br>
+            <p><span class="purple">Project Significance:</span>
+              Our collaborative effort in developing the Airline Management System demonstrates the effective
+              integration of SQL databases and front-end development to create a robust platform for managing airline
+              operations. By leveraging SQL for data management and front-end technologies for user interaction, we have
+              created a solution that enhances efficiency, accuracy, and usability in the airline industry.</p>
+          </div><br><br>
+          <div class="container4">
+            <div class="radio-input">
+              <label>
+                <input value="1" name="value-radio" id="value-1" type="radio" checked="">
+                <span>1</span>
+              </label>
+              <label>
+                <input value="2" name="value-radio" id="value-2" type="radio">
+                <span>2</span>
+              </label>
+              <label>
+                <input value="3" name="value-radio" id="value-3" type="radio">
+                <span>3</span>
+              </label>
+              <label>
+                <input value="4" name="value-radio" id="value-4" type="radio">
+                <span>4</span>
+              </label>
+              <span class="selection"></span>
+            </div>
+      </main>
+    </div>
+</div>
+</section>
+<div id="Experience">
+  <div class="container">
+    <span class="purple">
+      <h1 class="subtitle">Experience</h1>
+    </span>
+    <div class="workList">
+      <div class="work">
+        <img src="codc.jpeg" alt="">
+        <div class="layer">
+          <h3>Data Science Intern</h3>
+          <h4>
+            <p>I was a Data Science intern at CodersCave from March 2024 to April 2024. This virtual internship
+              significantly advanced my interests and skills in data science.</p>
+          </h4>
+        </div>
+      </div>
+      <div class="work">
+        <img src="bhain.jpeg" alt="">
+        <div class="layer">
+          <h3>Web Dev Intern</h3>
+          <h4>
+            <p>I was a Web Development intern at BharatIntern from June 2024 to July 2024. This virtual internship
+              taught me a lot about HTML and CSS through various projects.</p>
+          </h4>
+        </div>
+      </div>
+      <div class="work">
+        <img src="codtech.jpeg" alt="">
+        <div class="layer">
+          <h3>Web Dev Intern</h3>
+          <h4>
+            <p>I was a Web Development intern at CodTech IT solutions from June 2024 to July 2024. This virtual
+              internship helped me gain further knowledge about web development.</p>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<div id="Contact me">
+<section class="Contact">
+  <span class="purple">
+    <h1 class="dis">Contact Me</h1></span>
+  <br><br><br>
+  <ul class="example-2">
+    <li class="icon-content">
+      <a
+        href="https://www.linkedin.com/in/siddharth-dhadwal-725a4724b/"
+        aria-label="LinkedIn"
+        data-social="linkedin"
+      >
+        <div class="filled"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-linkedin"
+          viewBox="0 0 16 16"
+          xml:space="preserve"
+        >
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </a>
+      <div class="tooltip">LinkedIn</div>
+    </li>
+    <li class="icon-content">
+      <a href="https://github.com/siddharth2514" aria-label="GitHub" data-social="github">
+        <div class="filled"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-github"
+          viewBox="0 0 16 16"
+          xml:space="preserve"
+        >
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </a>
+      <div class="tooltip">GitHub</div>
+    </li>
+    <li class="icon-content">
+      <a
+        href="https://www.instagram.com/siddharth__dhadwal/?hl=en"
+        aria-label="Instagram"
+        data-social="instagram"
+      >
+        <div class="filled"></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-instagram"
+          viewBox="0 0 16 16"
+          xml:space="preserve"
+        >
+          <path
+            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+            fill="currentColor"
+          ></path>
+        </svg>
+      </a>
+      <div class="tooltip">Instagram</div>
+    </li>
+    <li class="icon-content">
+      <a href="https://discord.com/channels/@me/858369536915144715" aria-label="Discord" data-social="discord">
+        <div class="filled"></div>
+        <svg
+          viewBox="0 0 16 16"
+          class="bi bi-discord"
+          fill="currentColor"
+          height="16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"
+          ></path>
+        </svg>
+      </a>
+      <div class="tooltip">Discord</div>
+    </li>
+  </ul><br><br>
+  <p><h3><span class="purple">Email:</span> dhadwalsiddharth@gmail.com</p>
+    <p><span class="purple">Phone number:</span> (+91) 8219498430</p>
+  </h3>
+  <div class="container5">
+    <div class="form-card1">
+      <div class="form-card2">
+        <form class="form" name="submit-to-google-sheet">
+          <p class="form-heading">Get In Touch</p>
+    
+          <div class="form-field">
+            <input required="" placeholder="Name" class="input-field" type="text" />
+          </div>
+    
+          <div class="form-field">
+            <input
+              required=""
+              placeholder="Email"
+              class="input-field"
+              type="email"
+            />
+          </div>
+    
+          <div class="form-field">
+            <input
+              required=""
+              placeholder="Subject"
+              class="input-field"
+              type="text"
+            />
+          </div>
+    
+          <div class="form-field">
+            <textarea
+              required=""
+              placeholder="Message"
+              cols="30"
+              rows="3"
+              class="input-field"
+            ></textarea>
+          </div>
+    
+          <button class="sendMessage-btn">Send Message</button>
+        </form>
+      </div>
+    </div>    
+</div>
+</div>
+</section>
+<div class="copyright">
+  <p>Copyright © Siddharth.</p>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var radios = document.querySelectorAll('input[name="value-radio"]');
+    var projects = document.querySelectorAll('.project');
+
+    function toggleContent() {
+      projects.forEach(project => project.classList.add('hidden'));
+      var selectedRadio = document.querySelector('input[name="value-radio"]:checked');
+      var contentId = 'project-' + selectedRadio.value;
+      document.getElementById(contentId).classList.remove('hidden');
+    }
+
+    radios.forEach(radio => {
+      radio.addEventListener('change', toggleContent);
+    });
+
+    // Initial content display based on the default selected radio button
+    toggleContent();
+  });
+</script>
+</section>
+</main>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Python', 'DSA', 'C', 'C++', 'Java'],
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 1000,
+    loop: true
+  });
+</script>
+<script>
+  var tabLinks = document.getElementsByClassName("tabLinks");
+  var tabContents = document.getElementsByClassName("tabContents");
+  function opentab(tabName) {
+    for (tabLink of tabLinks) {
+      tabLink.classList.remove("activeLink")
+    }
+    for (tabContent of tabContents) {
+      tabContent.classList.remove("activeTab")
+    }
+    event.currentTarget.classList.add("activeLink");
+    document.getElementById(tabName).classList.add("activeTab");
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwNxobmQdjkaDZ5IQV_x8v749BBI8b8RUo58eiooAffhvs4j7Q5w_iMmKeeduuqvf8n/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</div>
+
+</html>
