@@ -263,20 +263,17 @@ width: 70%;
 }
 
 .radio-input label:nth-child(1):has(input:checked) ~ .selection {
-  transform: translateX(calc(var(--container_width) * 0/4));
+  transform: translateX(calc(var(--container_width) * 0/3));
 }
 
 .radio-input label:nth-child(2):has(input:checked) ~ .selection {
-  transform: translateX(calc(var(--container_width) * 1/4));
+  transform: translateX(calc(var(--container_width) * 1.15/3));
 }
 
 .radio-input label:nth-child(3):has(input:checked) ~ .selection {
-  transform: translateX(calc(var(--container_width) * 2/4));
+  transform: translateX(calc(var(--container_width) * 2.25/3));
 }
 
-.radio-input label:nth-child(4):has(input:checked) ~ .selection {
-  transform: translateX(calc(var(--container_width) * 3/4));
-}
 .hidden {
   display: none;
 }
@@ -355,7 +352,6 @@ width: 70%;
   padding-inline: 2em;
   padding-bottom: 0.4em;
   background-color: #171717;
-  //background-color: #0a192f;
   border-radius: 20px;
 }
 
