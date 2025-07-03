@@ -3,7 +3,7 @@
 
 Hey there! 👋 I’m **Siddharth Dhadwal**, a Computer Science student at SRM University, passionate about building innovative AI/ML solutions and impactful web applications.
 
-This is my personal portfolio website showcasing my skills, projects, and experiences — all crafted with ❤️ using HTML, CSS, and a touch of JavaScrip
+This is my personal portfolio website showcasing my skills, projects, and experiences — all crafted with ❤️ using HTML, CSS, and a touch of JavaScript
 
 ## 🧑‍💻 About Me
 
